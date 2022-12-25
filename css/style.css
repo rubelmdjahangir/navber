@@ -1,0 +1,40 @@
+/* css manu start */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+#navber{
+    background-color: #6ab04c;
+}
+#navber ul{
+    text-align:center;
+}
+#navber li{
+display: inline-block;
+margin: 15px;
+position: relative;
+}
+#navber a{
+    color:#fff; 
+}
+#navber a:hover{
+    background-color: #badc58;
+    padding: 12px;
+    transition: .5s;
+}
+/* css manu end */
+
+/* css dropdown start */
+
+/* 1st list start */
+ul ul {
+    position: absolute;
+    left: -99999px; top: 33px;
+    background-color: #30336b;
+    text-transform: uppercase;  
+}
+ul li:hover ul{
+    left: 0;
+}
+/* 1st list end */
